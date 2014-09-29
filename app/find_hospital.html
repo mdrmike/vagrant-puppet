@@ -1,0 +1,451 @@
+								  
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta HTTP-EQUIV="expires" CONTENT="Wed, 26 Feb 1997 08:21:57 GMT" />
+<title>Welcome To Americas Health Plan IPA Administrator</title>
+<meta name="keywords" content="Welcome To Americas Health Plan IPA Administrator" />
+<link href="images/rcmg-style.css" rel="stylesheet" type="text/css" />
+<meta name="description" content="Welcome To Americas Health Plan IPA Administrator" />
+
+<link type="text/css" rel="stylesheet" href="images/layout.css"  />
+<link href="images/rx4cc_med_stlye.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="images/ddsmoothmenu.css" />
+<link href="base/jscalendar/skins/aqua/theme.css" rel="stylesheet" />
+</head>
+
+<style type="text/css">
+img, input, table, tr, td, div {
+	behavior: url("http://ahpnet.org/images/iepngfix.htc")
+}
+ @font-face {
+ font-family: 'CenturyGothic';
+ src: url('images/fonts/gothic.eot');
+ src: url('images/fonts/gothic.eot@') format('embedded-opentype'),  url('images/fonts/gothic.woff') format('woff'),  url('images/fonts/gothic.ttf') format('truetype'),  url('images/fonts/gothic.svg') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+</style>
+<link rel="shortcut icon" href="images/favicon.ico">
+<script type="text/javascript" src="http://ahpnet.org/beta/base/med_ajax_dynamic_content.js"></script>
+<!-- Thickbox Javascript and CSS for opening Modal window for Lead Followup -->
+<script type="text/javascript" src="base/javascript/jquery.js"></script>
+<script type="text/javascript" src="base/javascript/thickbox.js"></script>
+<script type="text/javascript" src="base/fckeditor/fckeditor.js"></script>
+<script type="text/javascript" src="base/jscalendar/calendar.js"></script>
+<script type="text/javascript" src="base/jscalendar/calendar-en.js"></script>
+<script type="text/javascript" src="base/jscalendar/calendar-setup.js"></script>
+<script type="text/javascript" src="base/meditab/med_quicklist.js"></script>
+<script type="text/javascript" src="base/meditab/med_common.js"></script>
+<script type="text/javascript" src="base/searchhi_slim.js"></script>
+<script type="text/javascript" src="base/javascript/jquery.maskedinput.js"></script>
+<script type="text/javascript" src="base/meditab/med_common.js"></script>
+<script type="text/javascript" src="base/meditab/rcmg_med_common.js"></script>
+<script type="text/javascript" src="base/javascript/ddaccordion.js"></script>
+<script type="text/javascript" src="images/javascript/jquery.min.1.8.js"></script>
+<script type="text/javascript" src="images/javascript/ddsmoothmenu.js"></script>
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script type="text/javascript">
+
+ddaccordion.init({
+	headerclass: "submenuheader", //Shared CSS class name of headers group
+	contentclass: "submenu", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: true, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc] [] denotes no content
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: true, //persist state of opened contents within browser session?
+	toggleclass: ["", ""], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["suffix", "<img src='images/plus.gif' class='statusicon' />", "<img src='images/minus.gif' class='statusicon' />"], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "3500", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(headers, expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+
+$(document).ready(function(){
+	
+	$(".accordion .thread-title:first").addClass("active");
+	$(".accordion .thread-content:not(:first)").hide();
+
+	$(".accordion .thread-title").click(function(){
+		$(this).next(".thread-content").slideToggle("slow")
+		.siblings(".thread-content:visible").slideUp("slow");
+		$(this).toggleClass("active");
+		$(this).siblings(".thread-title").removeClass("active");
+	});
+
+});
+
+ddsmoothmenu.init({
+	mainmenuid: "smoothmenu1", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//method: 'toggle', // set to 'hover' (default) or 'toggle'
+	arrowswap: true, // enable rollover effect on menu arrow images?
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script>
+
+<script src="base/javascript/jquery.min.js"></script>
+<script src="images/slides.min.jquery.js"></script>
+<script>
+		$(document).ready(function(e) {
+            
+        
+		
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true,
+				fadeSpeed: 3000,
+				crossfade: true,
+				randomize: true,
+				effect: 'fade',
+				animationStart: function(current){
+					$('.caption').animate({
+						bottom:-35
+					},100);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationStart on slide: ', current);
+					};
+				},
+				animationComplete: function(current){
+					$('.caption').animate({
+						bottom:0
+					},200);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationComplete on slide: ', current);
+					};
+				},
+				slidesLoaded: function() {
+					$('.caption').animate({
+						bottom:0
+					},200);
+				}
+			});
+		});
+		
+		
+</script>
+
+
+<body>
+<div id="wrap">
+  <table width="960px" border="0" cellspacing="0" cellpadding="0" >
+    <tr>
+      <td>
+<script>
+function bookmark()
+{
+bookmarkurl="http://ahpnet.org/"
+bookmarktitle="AmericasHealth Plan"
+if (document.all)
+window.external.AddFavorite(bookmarkurl,bookmarktitle)
+else if (window.sidebar) // firefox
+window.sidebar.addPanel(bookmarktitle, bookmarkurl, "");
+}
+
+function submit_formTop()
+{
+	strAlertMessage="";
+	if(document.getElementById("txt_username"))checkBlank(document.getElementById("txt_username"),"Username");
+	if(document.getElementById("txt_password"))checkBlank(document.getElementById("txt_password"),"Password")
+
+	if(strAlertMessage!="")
+	{
+		alert("Following errors:\n"+strAlertMessage);
+		eval(strStyle);
+		return false;
+	}
+	document.frm_login.submit();
+}
+
+
+//-->
+</script>
+<script src="Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+
+
+
+<div class="header">
+	<div class="navigation">
+    	<ul class="left">
+        	<!--<li><a href="index.html">Home</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+            <li><a href="">En Espanol</a></li>
+            <li><a href="doctor-page.html">Find a Provider</a></li>
+            <li><a href="">My Account</a></li>-->
+        </ul>
+        
+        <div class="call right">
+        	For immediate assistance, please call <span> (800)-584-0724</span>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="sub-header">
+		<h1 class="left"><a href="index.html">AmericasHealthPlan</a></h1>
+        <div class="search left">
+        <form id="frm_keyword" name="frm_keyword"  method="post" action="http://ahpnet.org/beta/doctor-page.html" >
+        	<p>Find a hospital or doctor Now! <input type="button" class="go" onclick="javascript:document.frm_keyword.submit()" /></p>
+            <input type="text" id="txt_name"  name="txt_name" class="search-input left" value="Search by keyword" onFocus="if(this.value=='Search by Keyword')this.value='';" onBlur="if(this.value=='')this.value='Search by Keyword';">
+       </form>
+        </div>
+        <div class="clear"></div>
+    </div>
+<div id="smoothmenu1" class="ddsmoothmenu">
+
+		<ul><li><a href="index.html">Home</a><ul><li><a href="about_ahp.html">About Us</a></li><li><a href="benefits_highlights.html">Benefits Highlights</a></li><li><a href="http://www.clinicas.org/content/job-openings-ahp">Career Opportunities</a></li><li><a href="join_now.html">Join Now</a></li><li><a href="media.html">Media</a></li><li><a href="termsofuse.html">Terms of Use</a></li><li><a href="partner_affil.html">Partners and Affiliations</a></li></ul></li><li><a href="find_hospital.html#">Members</a><ul><li><a href="welcome_members.html">Welcome Members</a></li><li><a href="member_services.html">Member Services</a></li><li><a href="member_orientations.html">Member Orientations</a></li><li><a href="find_pcp.html">Find a Primary Care Provider (PCP)</a><ul><li><a href="process_choosing_pcp.html">Choose or Change Your PCP</a></li></ul></li><li><a href="find_specialist.html">Find a Specialist</a></li><li><a href="find_hospital.html">Find a Hospital</a></li><li><a href="find_pharmacy.html">Find a Pharmacy</a></li><li><a href="find_urgentcareprovider.html">Find an Urgent Care Provider or Center</a></li><li><a href="member_handbook.html">Member Handbook</a></li><li><a href="forms_publications.html">Member Forms & Publications</a></li><li><a href="schedule_transportation.html">Schedule Transportation</a></li><li><a href="faq.html">Common Questions</a></li><li><a href="newsletter.html">Newsletter (Quarterly)</a></li><li><a href="grievance.html">Grievance & Appeals Form</a></li></ul></li><li><a href="welcome_providers.html">Providers</a><ul><li><a href="provider_portal.html">Provider Portal</a></li><li><a href="provider_relations.html">Provider Relations</a></li><li><a href="pharmacy.html">Pharmacy</a></li><li><a href="providers_updates.html">Provider Updates</a></li><li><a href="credentialing.html">Credentialing</a></li></ul></li><li><a href="health_services.html">Health Services</a><ul><li><a href="community_resources.html">Community Resources</a></li><li><a href="cultural_linguistic_services.html">Cultural and Linguistic Services</a></li><li><a href="staying_healthy_assessment.html">Staying Healthy Assessment</a></li><li><a href="disease_management.html">Disease Management</a></li><li><a href="utilization_management.html">Utilization Management</a></li></ul></li><li><a href="calendar.html">Calendar</a></li><li><a href="contact_us.html">Contact Us</a></li></ul>
+  <div class="spanishNav"><a href="index.html" tabindex="-1" class="">EN</a>  | <a href="spanish.html" class="">Espa&ntilde;ol</a></div>
+<br style="clear: left" />
+</div>
+    
+</div>
+
+<script >
+	
+	
+function toggleLogin()
+{
+	
+	if($j('#login-form').css('display')=='none')
+	{
+		$j('.side-header').css('display','block');$j('#login-form').fadeIn(function()
+		{
+			$j('#txt_username').focus();
+		});
+	}
+	else
+	{
+		$j('#login-form').fadeOut(function()
+		{
+			$j('.side-header').css('display','none');
+		});
+	}
+		return true;
+}
+
+function submitForm()
+{
+	var strMessage='';
+	strUserName	=	document.getElementById('txt_username').value;
+	strPass		=	document.getElementById('txt_password').value;
+	
+	
+	if(strUserName == '' )
+	{
+		strMessage	=	"Please enter username";
+		document.getElementById('txt_username').focus();
+	}
+
+	if(strPass == '' )
+	{
+		document.getElementById('txt_password').focus();
+		strMessage	+=	"\nPlease enter password";
+	}
+
+	if(strMessage != '')
+	{
+		alert(strMessage);
+		return false;	
+	}
+	document.frm_login.action  = "index.html";
+	document.frm_login.submit();
+}
+	
+function toggleLogin()
+{
+	
+	if($('#login-form').css('display')=='none')
+	{
+		$('.side-header').css('display','block');
+		$('#login-form').fadeIn(function()
+		{
+			$('#txt_username').focus();
+		});
+	}
+	else
+	{
+		$('#login-form').fadeOut(function()
+		{
+			$('.side-header').css('display','none');
+		});
+	}
+		return true;
+}
+
+
+</script>
+</td>
+    </tr>
+    <tr>
+      <td>         <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td colspan="3"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><img src="images/inner-banner.jpg" height=""  /></td>
+  </tr>
+</table>
+<br /></td>
+          </tr>
+          <tr>
+            <td valign="top"><div class="left"> <table border="0" cellspacing="0" cellpadding="0" class="new-h-top">
+    <tr align="left" valign="top">
+       <div class="home-right"><h3 class="blue-hdr"><a href="find_hospital.html#">Members</a></h3><ul class="right_submenu"><ul><li><a href="welcome_members.html">Welcome Members</a></li><li><a href="member_services.html">Member Services</a></li><li><a href="member_orientations.html">Member Orientations</a></li><li><a href="find_pcp.html">Find a Primary Care Provider (PCP)</a><ul><li><a href="process_choosing_pcp.html">Choose or Change Your PCP</a></li></ul></li><li><a href="find_specialist.html">Find a Specialist</a></li><li><a href="find_hospital.html">Find a Hospital</a></li><li><a href="find_pharmacy.html">Find a Pharmacy</a></li><li><a href="find_urgentcareprovider.html">Find an Urgent Care Provider or Center</a></li><li><a href="member_handbook.html">Member Handbook</a></li><li><a href="forms_publications.html">Member Forms & Publications</a></li><li><a href="schedule_transportation.html">Schedule Transportation</a></li><li><a href="faq.html">Common Questions</a></li><li><a href="newsletter.html">Newsletter (Quarterly)</a></li><li><a href="grievance.html">Grievance & Appeals Form</a></li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td align="left" valign="top">
+		</td>
+    </tr>
+</table>
+
+ </div></td>
+            <td width="20"></td>
+            <td valign="top" class="gradnt-bg-1"><div class="left"> <table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tbody>
+	 
+  <tr>
+    <td height="6"><p><h2 class="">Find a Hospital</h2>
+<p>Under Construction</p></p>
+      </td>
+  </tr>
+   <tr>
+		  <td align="right">
+				  <div onclick="javascript:history.go(-1)" style="cursor: pointer;border-radius: 5px;border: 1px solid #0064ec; padding: 6px;background-color: #3366CC;color: #FFFFFF" class="search" >Back</div></td>
+	  </tr>
+</table> </div></td>
+          </tr>
+        </table>
+        <div class="clear"></div>
+         </td>
+    </tr>
+    <tr>
+      <td> <table width="100%" border="0" cellspacing="0" cellpadding="0" >
+      <tr>
+        <td>
+        <div class="footer clearfix">
+            <ul class="bottom">
+                <li><a href="screenings-immunizations.html" class="screen">Screenings and <br />Immunizations</a></li>
+                <li><a href="prevention_wellness_program.html" class="prevention">Prevention & Wellness <br />Programs Available</a></li>
+                <li><a href="prescription_coverage_discounts.html" class="coverage">Prescription Coverage <br />& Discounts</a></li>
+                <div class="clear"></div>
+            </ul>
+            <ul class="left">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="sitemap.html">Sitemap</a></li>
+				<li><a href="privacy-policy.html">Privacy Policies</a></li>
+                <!--<li><a href="career.html">Careers</a></li>
+                <li><a href="search.html">Site Search</a></li>-->
+                <!--<li><a href="newsroom.html">Newsroom</a></li>-->
+            </ul>
+            <p class="right" align="right">&copy;2013 AmericasHealth Plan. All Rights Reserved.<br />Site Designed & Developed by: <a href="http://www.website4md.com/" target="_blank"><strong>Website4MD</strong></a></p>
+</div>
+        </td>
+      </tr>
+          <tr>
+      	<td colspan="2" align="center" class="gray" >This web site is for information and educational use only. It should not be construed as medical advice or instruction. If you need medical advice, see your health care provider.</td>
+      </tr>
+</table> </td>
+    </tr>
+  </table>
+</div>
+
+
+ 
+<script type="text/javascript">
+		function seachProvider(strFormName)
+		{
+			strForm			=		document.getElementById(strFormName);
+			strForm.submit();
+		}
+		
+		function openViewMapForStaticAddress(static_address_id,strType,intShowAll)
+		{
+			strURL	=	"index.php?file=med_show_map_location";
+			
+			if(static_address_id)
+			{
+				strURL	+=	"&static_address_id="+static_address_id;
+			}
+			if(strType)
+			{
+				strURL	+=	"&strType="+strType;
+			}	
+			if(intShowAll )
+			{
+				strURL	+=	"&show_all="+intShowAll;
+			}
+			window.open (strURL,"","location=1,status=1,scrollbars=true,width=1024,height=600"); 
+			return false;
+		}
+		
+		$(document).ready(function(){
+			var url = window.location.pathname;
+
+			var myPageName = url.substring(url.lastIndexOf('/') + 1);
+			
+			var strElement = $('.right_submenu li a').attr('href')
+			$('.right_submenu li a').each(function(){
+					if(myPageName == $(this).attr('href') )
+					{
+							$(this).attr('class','selected')
+					}
+				});
+			
+		});
+	</script> 
+
+</body>
+</html><script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-11463116-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
