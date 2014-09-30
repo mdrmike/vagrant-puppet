@@ -1,0 +1,1216 @@
+/***************************************************************
+  	                    Meds4ccs CSS
+***************************************************************/
+
+/*Start Top Section Class*/
+
+.meds4ccs_bg-top {
+	/*background-image:url(bg-top.jpg);*/
+	background-repeat: repeat-x;
+	height: 102px;
+}
+
+.meds4ccs_bg-topnavbar {
+	background-image:url(http://ahpnet.org/beta/images/bg-top-navbar.gif);
+	background-repeat: repeat-x;
+	height: 34px;
+}
+
+.meds4ccs_bg-toplink {
+	background-image:url(http://ahpnet.org/beta/images/bg-top-link.jpg);
+	background-repeat: no-repeat;
+	height: 102px;
+	width: 300px;
+}
+.meds4ccs_whitenav { font-weight: bold; color:#1c68b5; text-decoration: none; }
+a.meds4ccs_whitenav:link { font-weight: bold; color:#FFFFFF; text-decoration: none; }
+a.meds4ccs_whitenav:visited { font-weight: bold; color:#FFFFFF; text-decoration: none; }
+a.meds4ccs_whitenav:hover{ font-weight: bold; color:#FFFFFF; text-decoration: underline; }
+
+/*End Top Section Class*/
+
+
+/*Start left section class*/
+.meds4ccs_bg-left {
+	background-image: url(http://ahpnet.org/beta/images/new_meds4ccs_leftbg.gif);
+	background-repeat: no-repeat;
+	width: 177px;
+	height: 35px;
+}
+
+a.meds4ccs-leftnav:link { padding-left:24px; font-weight: bold; color: #d84e4d; text-decoration: none; font-size:12px; }
+a.meds4ccs-leftnav:visited { padding-left:24px; font-weight: bold; color: #d84e4d; text-decoration: none; font-size:12px; }
+a.meds4ccs-leftnav:hover { padding-left:24px;  font-weight: bold; color: #d84e4d; text-decoration: underline; font-size:12px; }
+
+.meds4ccs_bgnewsltr {
+	background-image: url(meds4ccs_bg-newsletter.gif);
+	background-repeat: no-repeat;
+	width: 169px;
+	height: 63px;
+}
+
+
+	
+.meds4ccs_inputleft { background-color:#FFFFFF; border: 1px solid #f5006f; font-size: 10px; }
+/*Start left section class*/
+
+
+
+/*Start Common text class*/
+
+.meds4ccs_whitetext { font-size: 10px; color: #FFFFFF; font-weight: normal; }
+.meds4ccs_whitetext a:link { font-size: 11px; color: #FFFFFF; font-weight: normal; text-decoration: none; }
+.meds4ccs_whitetext a:visited { font-size: 11px; color: #FFFFFF; font-weight: normal; text-decoration: none; }
+.meds4ccs_whitetext a:hover { font-size: 11px; color: #FFFFFF; font-weight: normal; text-decoration: underline; }
+
+.meds4ccs_tdbg { background-color: #c31a59; }
+
+.meds4ccs_border { 
+	background-image: url(http://ahpnet.org/beta/images/meds4ccs_line.gif);
+	background-repeat: repeat-x;
+	height: 10px;	
+}
+
+.meds4ccs_midtext { color: #69899e; }
+
+.meds4ccs_hd { 
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #c12c66; 
+	font-weight: normal;
+	font-size: 18px;
+}
+
+.meds4ccs_lovntext { color: #7a699e; }
+
+.meds4ccs_hd-orange { color:#ff8a00; font-size: 18px; font-weight:normal; }
+
+.meds4ccs_tdbrd { border: 1px solid #f4f4f4; }
+
+.black-bold {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #000000; 
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/*End Common text class*/
+
+
+/*Start Right Class*/
+
+.meds4ccs_bgbox {
+	background-image: url(http://ahpnet.org/beta/images/meds4ccs_bgbox.gif);
+	background-repeat: no-repeat;
+	width: 182px;
+	height: 113px;
+	border: 1px solid #f1deb5;
+}
+
+.meds4ccs_medhd { color: #e77eb4; font-weight: bold; }
+
+.meds4ccs_bg-hd { 
+	background-image:url(meds4ccs_bg-hd.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	height: 22px;	
+}
+
+.meds4ccs_bg-news {
+	background-image: url(http://ahpnet.org/beta/images/meds4ccs_bannenews-bg.gif);
+	background-repeat: repeat-y;
+	width: 173px;
+	background-position: top;
+}	
+	
+.meds4ccs_newstext { font-size: 10px; color: #43779b; }	
+
+/*End Right Class*/
+
+.errorlog { color: #FF0000; }
+
+.meds4ccs_formcontact { color: #000000; }
+/*.meds4ccs_formcontact input {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	font-size: 11px;
+	color: #000000;
+}*/
+
+/*a.meds4ccs_newsnav:link { font-size: 11px; color: #0068d2; text-decoration: underline; }
+a.meds4ccs_newsnav:visited { font-size: 11px; color: #0068d2; text-decoration: underline; }
+a.meds4ccs_newsnav:hover { font-size: 11px; color: #0068d2; text-decoration: none; }*/
+
+
+
+.td-hdbg {
+	background-image:url(meds4ccs_bg-hd.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+	height: 22px;
+}
+
+
+.chakids-blackbold { 
+font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#FF6600;
+}
+
+/* qlist data classes START here */
+/* this all data classes used for qlist table data its define in tr and td */
+/* for normal data*/
+
+.qlist .lst tr.data1 td {
+	background-color: #ffffff;
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 18px;
+}
+.qlist .lst tr.data1 td a:link { color: #0065b3; text-decoration: none; }
+.qlist .lst tr.data1 td a:visited { color: #0065b3; text-decoration: none; }
+.qlist .lst tr.data1 td a:hover { color: #0a6ec4; text-decoration: underline; }
+
+
+.qlist .lst tr.data2 td {
+	
+	background-color: #eee;
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000;
+	height: 18px;
+}
+.qlist .lst tr.data2 td a:link {color: #0065b3; text-decoration: none; }
+.qlist .lst tr.data2 td a:visited {color: #0065b3; text-decoration: none; }
+.qlist .lst tr.data2 td a:hover {color: #0a6ec4; text-decoration: underline;}
+
+.qlist .lst tr.dataH td {
+	background-color: #e3e3e3;
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 18px;
+}
+.qlist .lst tr.dataH td a:link { color: #4ba10c; text-decoration: underline; }
+.qlist .lst tr.dataH td a:visited { color: #4ba10c; text-decoration: underline; }
+.qlist .lst tr.dataH td a:hover { color: #4ba10c; text-decoration: underline; }
+
+
+.qlist .lst tr.dataS td {
+	background-color: #e5e5e5;
+	color:#575757;
+	padding-top: 2px;
+	padding-left:4px;	
+	padding-right:4px;
+	height:18px;
+}
+.qlist .lst tr.dataS td a:link { color: #575757; text-decoration: underline; }
+.qlist .lst tr.dataS td a:visited { color: #575757; text-decoration: underline; }
+.qlist .lst tr.dataS td a:hover { color: #575757; text-decoration: underline; }
+
+/*this class is particularly used for red(inactive) made by bindi on 22-12-06*/
+
+.qlist .lst tr.datared td {
+	background-color: #FEF7DE;
+	color: #ff0000;
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 18px;
+}
+.qlist .lst tr.datared td a:link { color: #FF0000; text-decoration: none; }
+.qlist .lst tr.datared td a:visited { color: #FF0000; text-decoration: none; }
+.qlist .lst tr.datared td a:hover { color: #FF0000; text-decoration: underline; }
+
+.qlist .lst tr.dataredH td {
+	background-color: #fdf0c0;
+	color: #FF0000;
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 18px;
+}
+.qlist .lst tr.dataredH td a:link { color: #FF0000; text-decoration: underline; }
+.qlist .lst tr.dataredH td a:visited { color: #FF0000; text-decoration: underline; }
+.qlist .lst tr.dataredH td a:hover { color: #FF0000; text-decoration: underline; }
+
+.qlist .lst tr.dataredS td {
+	background-color: #FDEAA8;
+	color: #FF0000; 
+	padding-top: 2px;	
+	padding-left:4px;
+	padding-right:4px;
+	height:18px;
+}
+.qlist .lst tr.dataredS td a:link { color: #FF0000; text-decoration: underline; }
+.qlist .lst tr.dataredS td a:visited { color: #FF0000; text-decoration: underline; }
+.qlist .lst tr.dataredS td a:hover { color: #FF0000; text-decoration: underline; }
+
+/*red class end here*/
+
+/* this class used for show the selected field - */
+.qlist .lst tr.datasel td {
+	background-color: #c2c9d1;
+	color: #0b2e59;
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 18px;
+}
+.qlist .lst tr.datasel td a:link { color: #0b2e59; text-decoration: none; }
+.qlist .lst tr.datasel td a:visited { color: #0b2e59; text-decoration: none; }
+.qlist .lst tr.datasel td a:hover { color: #0b2e59; text-decoration: underline; }
+
+.qlist .lst tr.dataselH td {
+	background-color: #c2c9d1;
+	color: #0b2e59;
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	height: 18px;
+}
+.qlist .lst tr.dataselH td a:link { color: #0b2e59; text-decoration: underline; }
+.qlist .lst tr.dataselH td a:visited { color: #0b2e59; text-decoration: underline; }
+.qlist .lst tr.dataselH td a:hover { color: #0b2e59; text-decoration: underline; }
+
+.qlist .lst tr.dataselS td {
+	background-color: #acb2b9;
+	color: #ffffff; 
+	padding-top: 2px;	
+	padding-left:4px;
+	padding-right:4px;
+	height:18px;
+}
+.qlist .lst tr.dataselS td a:link { color: #ffffff; text-decoration: underline; }
+.qlist .lst tr.dataselS td a:visited { color: #ffffff; text-decoration: underline; }
+.qlist .lst tr.dataselS td a:hover { color: #ffffff; text-decoration: underline; }
+
+/* START - dataM classes currently used in instruction preview pop up page made by bindi on 08-01-2007 */
+/* for manual data*/
+
+.qlist .lst tr.dataM1 td {
+	background-color: #ffffff;
+	color: #0065b3;
+	padding-left: 2px;
+	height: 18px;
+}
+.qlist .lst tr.dataM1 td a:link { color: #0065b3; text-decoration: none; }
+.qlist .lst tr.dataM1 td a:visited { color: #0065b3; text-decoration: none; }
+.qlist .lst tr.dataM1 td a:hover { color: #0a6ec4; text-decoration: underline; }
+
+.qlist .lst tr.dataM2 td {
+	background-color: #f7f6f6;
+	color: #0065b3;
+	padding-left: 2px;
+	height: 18px;
+}
+.qlist .lst tr.dataM2 td a:link { color: #0065b3; text-decoration: none; }
+.qlist .lst tr.dataM2 td a:visited { color: #0065b3; text-decoration: none; }
+.qlist .lst tr.dataM2 td a:hover { color: #0a6ec4; text-decoration: underline;}
+
+.qlist .lst tr.dataM1H td {
+	background-color: #eeeded;
+	color: #0065b3;
+ 	padding-left: 2px;
+	height: 18px;
+}
+.qlist .lst tr.dataM1H td a:link { color: #0a6ec4; text-decoration: underline; }
+.qlist .lst tr.dataM1H td a:visited { color: #0a6ec4; text-decoration: underline; }
+.qlist .lst tr.dataM1H td a:hover { color: #0a6ec4; text-decoration: underline; }
+
+.qlist .lst tr.dataM2H td {
+	background-color: #eeeded;
+	color: #0065b3;
+	padding-left: 2px;
+	height: 18px;
+}
+.qlist .lst tr.dataM2H td a:link { color: #0a6ec4; text-decoration: underline; }
+.qlist .lst tr.dataM2H td a:visited { color: #0a6ec4; text-decoration: underline; }
+.qlist .lst tr.dataM2H td a:hover { color: #0a6ec4; text-decoration: underline; }
+
+.qlist .lst tr.dataM1S td {
+	background-color: #e5e5e5;
+	color:#575757;
+	padding: 2px;
+	height:18px;
+}
+.qlist .lst tr.dataM1S td a:link { color: #575757; text-decoration: underline; }
+.qlist .lst tr.dataM1S td a:visited { color: #575757; text-decoration: underline; }
+.qlist .lst tr.dataM1S td a:hover { color: #575757; text-decoration: underline; }
+
+.qlist .lst tr.dataM2S td {
+	background-color: #e5e5e5;
+	color:#575757;
+	padding: 2px;
+	height:18px;
+}
+.qlist .lst tr.dataM2S td a:link { color: #575757; text-decoration: underline; }
+.qlist .lst tr.dataM2S td a:visited { color: #575757; text-decoration: underline; }
+.qlist .lst tr.dataM2S td a:hover { color: #575757; text-decoration: underline; }
+
+/* END - dataM  */
+
+/*Qlist data classes END here */
+
+.qlist .lst tr.grp1 td {
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000066;
+	font-weight: bold;	
+	background-color: #f1f5ff;
+	height: 20px;
+}
+.qlist .lst tr.grp2 td {
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #384d85;
+	font-weight: bold;
+	background-color: #edf4fd; /*temp color change*/
+	height: 20px;	
+}
+.qlist .lst tr.grp2 td a {
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px; 
+	COLOR: #384d85; 
+	font-weight: bold;
+	text-decoration: none;
+	height: 20px;
+}
+.qlist .lst tr.grp2 td a:hover {
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #384d85;
+	font-weight: bold;
+	text-decoration: underline;
+	height: 20px;
+
+}
+
+.qlist .lst tr.gftr td {
+	background-color: #ffe99d;
+}
+.qlist .lst tr.lftr td {
+	background-color: #ffe383;
+}
+
+.qlist .lst tr.pgr {}
+.qlist .lst tr.pgr td { 
+	color: #333;
+	font-weight: bold;
+	text-decoration: none;
+	/*background-color:#f8f8f8;*/
+	height: 20px;
+	border-top-color: #999;
+	border-top-width: 1px;
+	border-top-style: solid;
+}
+.qlist .lst tr.pgr td A:link { color: #0065B3; font-weight: bold; text-decoration: none; }
+.qlist .lst tr.pgr td A:visited { color: #0065B3; font-weight: bold; text-decoration: none;  }
+.qlist .lst tr.pgr td A:hover { color: #333; font-weight: bold; text-decoration: underline; }
+
+
+/* for the alignment of table and td */
+
+
+.qlist .lst tr.hdr td.leftAlign, .qlist .lst tr.data1 td.leftAlign, .qlist .lst tr.data2 td.leftAlign, .qlist .lst tr.dataH td.leftAlign, .qlist .lst tr.dataS td.leftAlign {
+	text-align: left;
+}
+.qlist .lst tr.hdr td.centerAlign, .qlist .lst tr.data1 td.centerAlign, .qlist .lst tr.data2 td.centerAlign, .qlist .lst tr.dataH td.centerAlign, .qlist .lst tr.dataS td.centerAlign {
+	text-align: center;
+}
+.qlist .lst tr.hdr td.rightAlign, .qlist .lst tr.data1 td.rightAlign, .qlist .lst tr.data2 td.rightAlign, .qlist .lst tr.dataH td.rightAlign, .qlist .lst tr.dataS td.rightAlign {
+	text-align: right;
+}
+.qlist .lst tr.hdr td {
+ 	font-family:tahoma;
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration:none;
+	height:20px;
+	border-bottom:1px solid #999;
+	
+}
+.qlist .lst tr.tftr td {
+	background-color: #4d9fe2;
+	text-align: right;
+}
+.err
+{
+   border: 1px solid #ff0000;
+   background-color: #dfecf8;
+}
+
+/****END List style ****/
+
+
+****START  List style  add by amit on 11 Aug 2006****/
+
+.qlist, .qlist td {
+}
+.qlist .srch {
+}
+.qlist .srch table td {
+	FONT-WEIGHT: normal; COLOR: #333; font-size:11px; text-decoration: none;
+}
+.qlist .srch .vsrch td {
+	padding: 2px 2px 2px 2px;
+}
+.qlist .srch td.vsrch table {
+    float: right;
+}
+.qlist .srch .vsrch select {
+}
+/*.qlist .srch .vsrch .txtbox {
+}*/
+.qlist .srch .vsrch .btn {
+	padding: 1px;
+	display: block;
+	background-color: #f8b908;
+	border: 1px solid #dba40a;
+	width: 65px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	cursor: pointer;
+}
+.qlist .btn {
+	padding: 1px;
+	background-color: #4d9fe2;
+	border: 1px solid #4782b4;
+	font-size: 11px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	cursor: pointer;
+}
+
+.qlist .srch td.asrch {
+	text-align: right;
+	height: 22px;
+	vertical-align: middle;
+}
+.qlist .srch .asrch A {
+	FONT-WEIGHT: normal; COLOR: #0065B3; font-size: 11px; text-decoration: none;
+}
+.qlist .srch .asrch A:hover {
+	FONT-WEIGHT: normal; COLOR: #333; font-size: 11px; text-decoration: underline;
+}
+.qlist .srch .asrch .active {
+    FONT-WEIGHT: normal; COLOR: #0065B3; font-size: 11px; text-decoration: underline;
+}
+.border_bottom {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color:#c9dffd;
+}
+
+
+		/* NEW CSS By Niraj - 30-03-2007 */
+
+
+a.meds4ccs_usefullink:link { font-size: 11px; color: #e84e4c; text-decoration: underline; padding-left:15px; font-weight:bold; padding-top:3px;  }
+a.meds4ccs_usefullink:visited { font-size: 11px; color: #e84e4c; text-decoration: underline; padding-left:15px; font-weight:bold;  padding-top:3px; }
+a.meds4ccs_usefullink:hover { font-size: 11px; color: #e84e4c; text-decoration: none; padding-left:15px; font-weight:bold; padding-top:3px;  }
+
+.admin-content-text {
+	font-family: Arial, Tahoma;
+	font-size:13px;
+	font-weight:normal;
+	color:#333333;
+	text-decoration:none;
+	text-align:justify;
+	padding-left:20px;
+	padding-right:30px;
+	line-height:15px;
+}
+.bg-articles-mid {
+	background-image: url(http://ahpnet.org/beta/images/article-bg-middle.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+	width: 375px;
+}
+.bg-dotedline {
+	background-image: url(http://ahpnet.org/beta/images/bg-dotelline.gif);
+	background-repeat: repeat-x;
+	background-position: left;
+	height: 8px;
+}
+
+
+
+	/* Homepage Middle Banner CSS create date by 04th APR 2007 (Niraj) */
+
+.pink-top-left-corner {
+	background-image:url(http://ahpnet.org/beta/images/pink-top-left-corner.jpg);
+	height:30px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.pink-top-right-corner {
+	background-image:url(http://ahpnet.org/beta/images/pink-top-right-corner.jpg);
+	height:30px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.pink-top-mid-bg {
+	background-image:url(http://ahpnet.org/beta/images/pink-top-mid-bg.jpg);
+	height:30px;
+	background-repeat:repeat-x;
+}
+.pink-mid-td-border {
+	border-left:1px solid #ff8db9;
+	border-right:1px solid #ff8db9;
+}
+.pink-bottom-left-corner {
+	background-image:url(http://ahpnet.org/beta/images/pink-bot-left-corner.jpg);
+	height:10px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.pink-bottom-right-corner {
+	background-image:url(http://ahpnet.org/beta/images/pink-bot-right-corner.jpg);
+	height:10px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.pink-bottom-mid-bg {
+	background-image:url(http://ahpnet.org/beta/images/pink-bot-mid-bg.jpg);
+	height:10px;
+	background-repeat:repeat-x;
+}
+
+
+
+
+
+.blue-top-left-corner {
+	background-image:url(http://ahpnet.org/beta/images/blue-top-left-corner.jpg);
+	height:30px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.blue-top-right-corner {
+	background-image:url(http://ahpnet.org/beta/images/blue-top-right-corner.jpg);
+	height:30px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.blue-top-mid-bg {
+	background-image:url(http://ahpnet.org/beta/images/blue-top-mid-bg.jpg);
+	height:30px;
+	background-repeat:repeat-x;
+}
+.blue-mid-td-border {
+	border-left:1px solid #88cdfe;
+	border-right:1px solid #88cdfe;
+}
+.blue-bottom-left-corner {
+	background-image:url(http://ahpnet.org/beta/images/blue-bot-left-corner.jpg);
+	height:10px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.blue-bottom-right-corner {
+	background-image:url(http://ahpnet.org/beta/images/blue-bot-right-corner.jpg);
+	height:10px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.blue-bottom-mid-bg {
+	background-image:url(http://ahpnet.org/beta/images/blue-bot-mid-bg.jpg);
+	height:10px;
+	background-repeat:repeat-x;
+}
+
+
+
+
+
+.orange-top-left-corner {
+	background-image:url(http://ahpnet.org/beta/images/orange-top-left-corner.jpg);
+	height:30px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.orange-top-right-corner {
+	background-image:url(http://ahpnet.org/beta/images/orange-top-right-corner.jpg);
+	height:30px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.orange-top-mid-bg {
+	background-image:url(http://ahpnet.org/beta/images/orange-top-mid-bg.jpg);
+	height:30px;
+	background-repeat:repeat-x;
+}
+.orange-mid-td-border {
+	border-left:1px solid #ff984b;
+	border-right:1px solid #ff984b;
+}
+.orange-bottom-left-corner {
+	background-image:url(http://ahpnet.org/beta/images/orange-bot-left-corner.jpg);
+	height:10px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.orange-bottom-right-corner {
+	background-image:url(http://ahpnet.org/beta/images/orange-bot-right-corner.jpg);
+	height:10px;
+	width:11px;
+	background-repeat:no-repeat;
+}
+.orange-bottom-mid-bg {
+	background-image:url(http://ahpnet.org/beta/images/orange-bot-mid-bg.jpg);
+	height:10px;
+	background-repeat:repeat-x;
+}
+.middle-banner-image-border {
+	border-bottom:1px solid #FFFFFF;
+	border-top:1px solid #FFFFFF;
+}
+.pink-content-bg {
+	background-image:url(http://ahpnet.org/beta/images/pink-content-bg.jpg);
+	height:106px;
+	background-repeat:repeat-x;
+	background-position:top;
+}
+.blue-content-bg {
+	background-image:url(http://ahpnet.org/beta/images/blue-content-bg.jpg);
+	height:106px;
+	background-repeat:repeat-x;
+	background-position:top;
+}
+.orange-content-bg {
+	background-image:url(http://ahpnet.org/beta/images/orange-content-bg.jpg);
+	height:106px;
+	background-repeat:repeat-x;
+	background-position:top;
+}
+
+.middle-banner-content-text {
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#2e2e2e;
+	text-decoration:none;
+	text-align:justify;
+	line-height:14px;
+}
+.read-more-text:link {
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#ff5427;
+	text-decoration:underline;
+}
+.read-more-text:visited {
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#ff5427;
+	text-decoration:underline;
+}
+.read-more-text:hover {
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#ff5427;
+	text-decoration:none;
+}
+.num:link {
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#ff5427;
+	text-decoration:underline;
+}
+.num:visited {
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#ff5427;
+	text-decoration:underline;
+}
+.num:hover {
+	font-family:Tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#ff5427;
+	text-decoration:none;
+}
+
+
+
+
+
+
+			/* Right Side Information CSS Made by 03-04-2007 (Niraj)*/
+.info-top-left-corner {
+	background-image:url(http://ahpnet.org/beta/images/info-top-left-corner.jpg);
+	height:25px;
+	width:8px;
+	background-repeat:no-repeat;
+}
+.info-top-right-corner {
+	background-image:url(http://ahpnet.org/beta/images/info-top-right-corner.jpg);
+	height:25px;
+	width:8px;
+	background-repeat:no-repeat;
+}
+.info-top-mid-bg {
+	background-image:url(http://ahpnet.org/beta/images/info-top-mid-bg.jpg);
+	height:25px;
+	background-repeat:repeat-x;
+}
+.info-bot-left-corner {
+	background-image:url(http://ahpnet.org/beta/images/info-bot-left-corner.jpg);
+	height:9px;
+	width:8px;
+	background-repeat:no-repeat;
+}
+.info-bot-right-corner {
+	background-image:url(http://ahpnet.org/beta/images/info-bot-right-corner.jpg);
+	height:9px;
+	width:8px;
+	background-repeat:no-repeat;
+}
+.info-bot-mid-bg {
+	background-image:url(http://ahpnet.org/beta/images/info-bot-mid-bg.jpg);
+	height:9px;
+	background-repeat:repeat-x;
+}
+.info-mid-border {
+	border-left:1px solid #e7e7e7;
+	border-right:1px solid #e7e7e7;
+}
+
+a.article-text:link { Font-weight: bold; color: #d84e4d; text-decoration: none; }
+article-text:visited { font-weight: bold; color: #d84e4d; text-decoration: none; }
+a.article-text:hover { font-weight: bold; color: #d84e4d; text-decoration: underline; }
+
+a.article-text-normal:link { Font-weight: bold; color: #000000; text-decoration: underline; }
+a.article-text-normal:visited { font-weight: bold; color: #000000; text-decoration: underline; }
+a.article-text-normal:hover { font-weight: bold; color: #000000; text-decoration: none; }
+
+.meds4ccs_whitetext1233 { font-size: 11px; font-family:Tahoma; color: #FFFFFF; font-weight: normal; }
+.img-border {
+	border:3px solid #e6e6e6;
+}
+.category-title {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	color: #ff952f; 
+	font-size: 13px;
+	font-weight: bold;
+	padding-left:5px;
+	line-height:20px;
+}
+.catogory-hr-line {
+	border-top:1px solid #e2e2e2;
+	padding-left:10px;
+	padding-right:10px;
+}
+.meds4ccs_midtext_bigger { 
+	color: #69899e;
+	font-family:Tahoma;
+	font-size:15px;
+}
+.td-bar {
+	background-color:#ffe1e1;
+}
+.td-hr-line {
+	border-top:1px solid #ffe1e1;
+}
+
+
+
+
+
+.popup-orange-left-mid-bg {	background-image:url(http://ahpnet.org/beta/images/popup-orange-left-mid-bg.jpg);
+	width:10px;
+	background-repeat:repeat-y;
+}
+.popup-orange-right-mid-bg {	background-image:url(http://ahpnet.org/beta/images/popup-orange-right-mid-bg.jpg);
+	width:10px;
+	background-repeat:repeat-y;
+}
+.popup-orange-top-mid-bg {	background-image:url(http://ahpnet.org/beta/images/popup-orange-top-mid-bg.jpg);
+	height:9px;
+	background-repeat:repeat-x;
+}
+.popup-img-bottom-mid-bg {	background-image:url(http://ahpnet.org/beta/images/popup-img-bottom-mid-bg.jpg);
+	height:8px;
+	background-repeat:repeat-x;
+}
+.popup-img-left-mid-bg {	background-image:url(http://ahpnet.org/beta/images/popup-img-left-mid-bg.jpg);
+	width:10px;
+	background-repeat:repeat-y;
+}
+.popup-img-right-mid-bg {	background-image:url(http://ahpnet.org/beta/images/popup-img-right-mid-bg.jpg);
+	width:10px;
+	background-repeat:repeat-y;
+}
+.popup-img-top-mid-bg {	background-image:url(http://ahpnet.org/beta/images/popup-img-top-mid-bg.jpg);
+	height:9px;
+	background-repeat:repeat-x;
+}
+.popup-orange-bottom-mid-bg {	background-image:url(http://ahpnet.org/beta/images/popup-orange-bottom-mid-bg.jpg);
+	height:27px;
+	background-repeat:repeat-x;
+}
+.popup-title-bg {
+	background-color:#fe720d;
+}
+.popup-title-text {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding-bottom:7px;
+}
+.popup-close-text:link {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.popup-close-text:visited {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.popup-close-text:hover {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+.meds4ccs-contactus { 
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #333333; 
+	font-weight: bold;
+	font-size: 17px;
+}
+.meds4ccs_request:link { font-size: 14px; color: #333333; text-decoration: underline; font-weight:bold;}
+.meds4ccs_request:visited { font-size: 14px; color: #333333; text-decoration: underline;font-weight:bold;}
+.meds4ccs_request:hover { font-size: 14px; color: #333333; text-decoration: none;font-weight:bold;}
+.meds4ccs-messge-sent{ 
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #333333; 
+	font-weight: bold;
+	font-size: 13px;
+}
+.meds4ccs-company-name{ 
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #333333; 
+	font-weight: bold;
+	font-size: 15px;
+}
+.meds4ccs-company-slogan{ 
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #333333; 
+	font-weight: bold;
+	font-size: 11px;
+}
+.company-slogan {
+	font-family: Arial, Helvetica, sans-serif; 
+	color: #FFFFFF; 
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.main-logo-bg {
+	background-image:url(http://ahpnet.org/beta/images/logo-bg.jpg);
+	height:115px;
+	background-repeat:repeat-x;
+}
+.top-main-curve {
+	background-image:url(http://ahpnet.org/beta/images/top-main-curve.jpg);
+	height:115px;
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.orange-bg {
+	background-image:url(http://ahpnet.org/beta/images/orange-bg.jpg);
+	height:29px;
+	background-repeat:repeat-x;
+}
+.orange-bg-white-text {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.orange-white-text:link {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.orange-white-text:visited {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.orange-white-text:hover {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+.pink-navi-bg {
+	background-image:url(http://ahpnet.org/beta/images/pink-navi-bg.jpg);
+	height:51px;
+	background-repeat:repeat-x;
+}
+.pink-navi-div {
+	background-image:url(http://ahpnet.org/beta/images/pink-navi-div.jpg);
+	width:7px;
+	height:45px;
+	background-repeat:no-repeat;
+}
+.pink-white-text:link {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.pink-white-text:visited {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.pink-white-text:hover {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+.search-input {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#000000;
+	text-decoration:none;
+	height:18px;
+	border:0px;
+	width:135px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.pink-bottom-mid-bg {
+	background-image:url(http://ahpnet.org/beta/images/pin-bot-mid-bg.jpg);
+	height:52px;
+	background-repeat:repeat-x;
+}
+.pink-bottom-text {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#FFFFFF;
+	text-decoration:none;
+	line-height:15px;
+}
+.pink-bottom-white-text:link {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#FFFFFF;
+	text-decoration:none;
+	line-height:15px;
+}
+.pink-bottom-white-text:visited {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#FFFFFF;
+	text-decoration:none;
+	line-height:15px;
+}
+.pink-bottom-white-text:hover {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#FFFFFF;
+	text-decoration:underline;
+	line-height:15px;
+}
+
+.main-top-background {
+	background-image:url(http://ahpnet.org/beta/images/main-top-background.jpg);
+	height:166px;
+	background-repeat:repeat-x;
+}
+.main-bottom-background {
+	background-image:url(http://ahpnet.org/beta/images/main-bottom-background.jpg);
+	height:52px;
+	background-repeat:repeat-x;
+}
+.left-pink-navi-bg {
+	background-image:url(http://ahpnet.org/beta/images/left-navi-pink-bg.jpg);
+	height:28px;
+	background-repeat:no-repeat;
+}
+.left-main-black-text:link {
+	font-family:tahoma;
+	font-size:12px;
+	font-weight:normal;
+	color:#0a0a0a;
+	text-decoration:none;
+}
+.left-main-black-text:visited {
+	font-family:tahoma;
+	font-size:12px;
+	font-weight:normal;
+	color:#0a0a0a;
+	text-decoration:none;
+}
+.left-main-black-text:hover {
+	font-family:tahoma;
+	font-size:12px;
+	font-weight:normal;
+	color:#0a0a0a;
+	text-decoration:underline;
+}
+.right-pink-mid-bg {
+	background-image:url(http://ahpnet.org/beta/images/pink-right-mid-bg.jpg);
+	height:46px;
+	background-repeat:repeat-x;
+}
+.right-side-content {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#282828;
+	text-decoration:none;
+	line-height:15px;
+	text-align:justify;
+}
+.right-side-title:link{
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.right-side-title:visited{
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.right-side-title:hover{
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+.middle-title-header-bg {
+	background-image:url(http://ahpnet.org/beta/images/page-header-title.jpg);
+	height:47px;
+	background-repeat:repeat-x;
+}
+.page-header-orange-title {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#ff6f3f;
+	text-decoration:normal;
+}
+.welcome-content {
+	font-family:tahoma;
+	font-size:13px;
+	font-weight:normal;
+	color:#676767;
+	text-decoration:normal;
+	line-height:18px;
+	text-align:justify;
+}
+.newsletter-bg {
+	background-image:url(http://ahpnet.org/beta/images/bg-newsletter.jpg);
+	height:126px;
+	width:123px;
+	background-repeat:no-repeat;
+}
+.newsletter-input {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#000000;
+	text-decoration:none;
+	height:16px;
+	border:0px;
+	width:105px;
+}
+.pink-bottom-text234 {
+	font-family:tahoma;
+	font-size:10px;
+	font-weight:normal;
+	color:#FFFFFF;
+	text-decoration:none;
+	line-height:15px;
+}
+.search-input123 {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#000000;
+	text-decoration:none;
+	height:17px;
+	border:1px solid #b3b3b3;
+	padding-left:5px;
+	padding-right:5px;
+}
+.right-side-content {
+	font-family:tahoma;
+	font-size:11px;
+	font-weight:normal;
+	color:#282828;
+	text-decoration:none;
+	line-height:15px;
+	text-align:justify;
+}
+.left-pink-navi-active-bg {
+	background-image:url(http://ahpnet.org/beta/images/left-navi-pink-active-bg.jpg);
+	height:28px;
+	background-repeat:no-repeat;
+}
+
+.links-main-bg {
+background-image:url(link-main-bg.jpg);
+background-repeat:no-repeat;
+height:23px;
+width:531px;
+}
