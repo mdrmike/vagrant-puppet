@@ -3,14 +3,53 @@
 
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
-
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+
+  config.vm.provider :linode do |provider, override|
+    override.ssh.private_key_path = '~/.ssh/id_rsa.1'
+    override.vm.box = 'linode'
+    override.vm.box_url = "https://github.com/displague/vagrant-linode/raw/master/box/linode.box"
+
+    provider.token = '86lWU4NpXqQsjuBa1mHqlVmetnOSqeKrseAYomeXaWO80bjjH6OZsePm4GlFH38z'
+    provider.distribution = 'Ubuntu 14.04 LTS'
+    provider.datacenter = 'fremont'
+    provider.plan = 'Linode 1024'
+    config.ssh.username = 'smile'
+    provider.setup = true
+    # provider.planid = <int>
+    # provider.paymentterm = <*1*,12,24>
+    # provider.datacenterid = 3
+    # provider.image = <string>
+    # provider.imageid = <int>
+    # provider.private_networking = <boolean>
+    # provider.stackscript = <string>
+    # provider.stackscriptid = <int>
+    # provider.distributionid = <int>
+    
+  end
+
+  config.vm.provision :puppet do |puppet|
+    puppet.manifests_path = 'puppet/manifests'
+    puppet.module_path = 'puppet/modules'
+    puppet.manifest_file = 'init.pp'
+  end
+end
+
+
+
+
+
+
+
+
+
+#Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # All Vagrant configuration is done here. The most common configuration
   # options are documented and commented below. For a complete reference,
   # please see the online documentation at vagrantup.com.
 
   # Every Vagrant virtual environment requires a box to build off of.
-  config.vm.box = "ubuntu/trusty64"
+#  config.vm.box = "ubuntu/trusty64"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
@@ -20,7 +59,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine. In the example below,
   # accessing "localhost:8080" will access port 80 on the guest machine.
- config.vm.network "forwarded_port", guest: 80, host: 8080
+# config.vm.network "forwarded_port", guest: 80, host: 5000
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
@@ -45,13 +84,13 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:
   #
-   config.vm.provider "virtualbox" do |vb|
+#   config.vm.provider "virtualbox" do |vb|
   #   # Don't boot with headless mode
-     vb.gui = true
+#     vb.gui = true
   #
   #   # Use VBoxManage to customize the VM. For example to change memory:
   #   vb.customize ["modifyvm", :id, "--memory", "1024"]
-   end
+#   end
   #
   # View the documentation for the provider you're using for more
   # information on available options.
@@ -119,9 +158,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # chef-validator, unless you changed the configuration.
   #
   #   chef.validation_client_name = "ORGNAME-validator"
-  config.vm.provision :puppet do |puppet|
-    puppet.manifests_path = 'puppet/manifests'
-    puppet.module_path = 'puppet/modules'
-    puppet.manifest_file = 'init.pp'
-  end
-end
+
+#end
